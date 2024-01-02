@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    height:100vh;
+    background-image: url(background.avif);
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginbox{
+    width: 30%;
+    height: 450px;
+    /* background: linear-gradient(blue,yellow);
+    background: linear-gradient(to right,blue,yellow,red);
+    background: linear-gradient(to bottom right,blue,yellow,red); */
+    /* background: radial-gradient(red,yellow,white); */
+
+    background:linear-gradient(red,rgba(255, 0, 132, 0.403));
+    border-radius: 20px;
+    padding: 30px;
+    /* margin-left: 50px; */
+}
+.row1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.row1 ion-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 26px;
+    padding: 25px;
+    border: 2px solid;
+}
+.usericon,.passwordicon{
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    padding:5px;
+}
+.row2,.row3{
+    position: relative;
+    left:50px ;
+}
+.userinput,.passwordinput{
+    color: black;
+    height: 42px;
+    width: 300px;
+    position: absolute;
+    border: none;
+    outline: none;
+}
+
+.userinput::placeholder,.passwordinput::placeholder{
+    font-weight: 600;
+    position: relative;
+    left: 20px;
+}
